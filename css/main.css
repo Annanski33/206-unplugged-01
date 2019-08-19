@@ -196,7 +196,11 @@ header .content-wrapper {
 }
 
 header figure {
+ 
+}
 
+img {
+  width: 100%;
 }
 
 header nav {
@@ -206,7 +210,7 @@ header nav {
   flex-flow: row wrap;
   width: 60%;
   font-size: 1.125em;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -263,14 +267,19 @@ footer .copyright {
  /* Hero Area */
 
 .hero-area {
+  background: url('../img/hero.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   color: #e2e3ed;
   font-size: 2.25em;
+  padding-top: 10px;
 }
 /* Aside */
 
@@ -289,14 +298,14 @@ aside .form {
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
-  padding: 18px 18px;
+  padding: 10px 12px;
   color: #2a423a;
   font-style: italic;
 }
  
 input[type=button] {
   width: 100%;
-  padding: 20px 0;
+  padding: 12px 0;
   margin-top: 20px;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
@@ -311,6 +320,8 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/dark-bkgr.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   /*align-items: center;*/
@@ -516,7 +527,7 @@ input[type=button] {
 
 .content-wrapper {
       max-width: 640px;
-      margin: 100px 0;
+      margin: 50px 0;
     }
 
 h2 {
@@ -554,6 +565,10 @@ header nav ul {
 
 
 /*Hero AREA */
+
+.hero-area {
+  height: 550px;
+}
 
 .hero-area h1 {
     font-size: 3em;
@@ -635,7 +650,6 @@ footer .contact {
   footer p {
       line-height: 1.285;
   }
-}
   
 footer .copyright {
   width: 100%;
@@ -702,6 +716,9 @@ FAQ Page
   max-width: 960px;
 }
 
+.hero-area {
+  height: 600px;
+}
 /* ASIDE */
 
 aside .content-wrapper {
@@ -719,7 +736,7 @@ aside .content-wrapper .form {
 }
 
 .features h2 {
-    width: 70%;
+    width: 90%;
   }
 
 /* Reviews */
