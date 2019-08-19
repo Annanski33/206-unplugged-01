@@ -143,12 +143,9 @@ p {
   line-height: 1.285;
 }
 
-img {
-
-}
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -196,7 +193,11 @@ header .content-wrapper {
 }
 
 header figure {
- 
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 img {
@@ -545,6 +546,10 @@ h3 {
   justify-content: space-around;
  }
 
+ header figure {
+  width: 30%;
+}
+
 header .content-wrapper {
       width: 100%;
       justify-content: space-between;
@@ -719,6 +724,12 @@ FAQ Page
 .hero-area {
   height: 600px;
 }
+
+header figure {
+  width: 20%;
+  }
+
+
 /* ASIDE */
 
 aside .content-wrapper {
