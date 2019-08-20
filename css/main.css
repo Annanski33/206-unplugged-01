@@ -129,6 +129,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.88em;
+  margin:0;
 }
 
 h3, h4 {
@@ -543,12 +544,13 @@ input[type=button] {
 
 .content-wrapper {
       max-width: 640px;
-      margin: 50px 0;
+      margin: 100px 0;
     }
 
 h2 {
     font-size: 2.25em;
     line-height: 1.333;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -690,6 +692,10 @@ footer .copyright {
 .mission-content p {
   width: 40%;
 }
+
+.map figure {
+  padding-bottom: 50%; 
+}
   
 .contact-section .content-wrapper h2 {
   width: 80%;
@@ -744,7 +750,9 @@ header figure {
   width: 20%;
   }
 
-
+h2 {
+  margin-bottom: 30px;
+}
 /* ASIDE */
 
 aside .content-wrapper {
@@ -782,6 +790,10 @@ aside .content-wrapper .form {
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 100%;
+}
+
+.map figure {
+  padding-bottom: 37%; 
 }
   
 .contact-section .content-wrapper h2 {
