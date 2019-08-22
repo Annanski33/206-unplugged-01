@@ -115,8 +115,10 @@ body {
 
 
 ul, ol {
- list-style: none;
+ list-style-type: none;
  text-transform: uppercase;
+ margin: 0;
+ padding: 0;
 }
 
 
@@ -141,7 +143,7 @@ h3, h4 {
 
 p {
   font-size: .875em;
-  line-height: 1.285;
+  line-height: 1.285em;
 }
 
 
@@ -213,7 +215,6 @@ header nav {
   width: 60%;
   font-size: 1.125em;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 header nav ul {
@@ -241,10 +242,6 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer .contact {
-  
-  
-}
 
 footer .social-icons {
   display: flex;
@@ -267,7 +264,7 @@ footer .social-icons p {
 }
 
 footer .social-icons p i {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 footer .copyright {
@@ -287,12 +284,9 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
-h1 {
+.hero-area h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  color: #e2e3ed;
   font-size: 2.25em;
-  padding-top: 10px;
 }
 /* Aside */
 
@@ -656,7 +650,8 @@ aside .content-wrapper .form {
     width: 90%;
   }
   
-.reviews article div {
+.reviews article div,
+.reviews article figure {
   width: 48%;
 }
   
@@ -671,15 +666,16 @@ footer .content-wrapper {
   margin: 100px 0;
 }
   
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
   
-footer .contact {
+/*footer .contact {
   padding-bottom: 0;
-}
+}*/
 
   footer h4 {
     font-size: 1.5em;
@@ -687,7 +683,7 @@ footer .contact {
   }
 
   footer p {
-      line-height: 1.285;
+      line-height: 1.3;
   }
   
 footer .social-icons {
