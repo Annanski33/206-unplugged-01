@@ -213,8 +213,8 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  font-size: 1.125em;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 700;
 }
 
 header nav ul {
@@ -287,6 +287,12 @@ footer .copyright {
 .hero-area h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.hero-area .content-wrapper {
+  margin-top: 20px;
 }
 /* Aside */
 
@@ -599,14 +605,14 @@ header nav ul {
 
 /*Hero AREA */
 
-.hero-area {
+.hero-area .content-wrapper {
   height: 550px;
 }
 
 .hero-area h1 {
-    font-size: 3em;
-    line-height: 1;
-    margin: 0;
+    font-size: 3.5em;
+    line-height: 1.2em;
+    margin-top: 35px;
 }
 
 /*ASIDE*/
@@ -758,6 +764,7 @@ FAQ Page
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
 
+
 .content-wrapper {
   max-width: 960px;
 }
@@ -770,8 +777,20 @@ header figure {
   width: 20%;
   }
 
+header nav {
+      width: 20%;
+    }
+
+p {
+  font-size: 1.05em;
+}
+
 h2 {
   margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.7em;
 }
 /* ASIDE */
 
@@ -799,10 +818,7 @@ aside .content-wrapper .form {
   width: 42%;
 }
 
-.reviews p {
-  font-size: 1em;
-  line-height: 1.2em;
-}
+
 /* ==========================================================================
  About Page
  ========================================================================== */
